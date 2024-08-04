@@ -2,7 +2,7 @@
 A Chrome extension that transforms your new tab into a developer-focused workspace.
 
 ## Installation
-- Download the extension: Obtain the extension file.
+- Download the extension: Obtain the <a href="https://github.com/zarqani/dev-hub-extension/releases/download/v1.0.0/extension.zip">extension</a> file.
 - Load unpacked:
     - Open Chrome extensions (chrome://extensions).
     - Enable "Developer mode" in the top right corner.
