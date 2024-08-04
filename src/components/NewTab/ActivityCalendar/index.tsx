@@ -36,7 +36,7 @@ const ActivityCalendar = () => {
     <div className="flex flex-col items-center justify-center min-h-screen">
       <div className="text-center">
         <div>
-          <TypoLogo className="mx-auto mb-8" />
+          <TypoLogo className="mx-auto mb-8 h-auto" width={200} />
         </div>
         <h1 className="text-4xl font-bold">GitHub Contributions Calendar</h1>
         <p className="mt-2 text-lg text-gray-600">Enter your GitHub username</p>
