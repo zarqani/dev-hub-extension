@@ -9,7 +9,11 @@
 		"build": "vite build",
 		"style": "prettier --check \"src/**/*.{ts,tsx}\"",
 		"style:fix": "prettier --write \"src/**/*.{ts,tsx}\"",
-		"eslint:fix": "eslint --fix \"src/**/*.{ts,tsx}\""
+		"prettier:check": "prettier . --check",
+		"prettier:fix": "prettier . --write",
+		"eslint:check": "eslint . .js,.jsx,.ts,.tsx",
+		"eslint:fix": "eslint . --fix .js,.jsx,.ts,.tsx",
+		"type:check": "tsc --noEmit"
 	},
 	"author": "Fahime Zarqani",
 	"license": "MIT",

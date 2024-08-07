@@ -1,33 +1,33 @@
 {
-  "manifest_version": 3,
-  "name": "Dev Hub",
-  "version": "1.0.0",
-  "description": "Display GitHub contributions in new tab",
-  "chrome_url_overrides": {
-    "newtab": "index.html"
-  },
-  "options_ui": {
-    "page": "options.html",
-    "open_in_tab": true
-  },
-  "icons": {
-    "48": "icon-48.png",
-    "128": "icon-128.png"
-  },
-  "action": {
-    "default_icon": "icon-48.png",
-    "default_popup": "popup.html"
-  },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content_script.js"]
-    }
-  ],
-  "background": {
-    "type": "module",
-    "service_worker": "service_worker.js"
-  },
-  "permissions": ["storage", "clipboardWrite", "tabs", "tabGroups"],
-  "host_permissions": ["<all_urls>"]
+	"manifest_version": 3,
+	"name": "Dev Hub",
+	"version": "1.0.0",
+	"description": "Display GitHub contributions in new tab",
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"options_ui": {
+		"page": "options.html",
+		"open_in_tab": true
+	},
+	"icons": {
+		"48": "icon-48.png",
+		"128": "icon-128.png"
+	},
+	"action": {
+		"default_icon": "icon-48.png",
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content_script.js"]
+		}
+	],
+	"background": {
+		"type": "module",
+		"service_worker": "service_worker.js"
+	},
+	"permissions": ["storage", "clipboardWrite", "tabs", "tabGroups"],
+	"host_permissions": ["<all_urls>"]
 }
