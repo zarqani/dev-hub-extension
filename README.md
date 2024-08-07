@@ -1,8 +1,14 @@
-# Chrome Extension Starter
+## DEV HUB
 
-Chrome extension starter template with React, TypeScript, Vite and Tailwind.
+A Chrome extension that transforms your new tab into a developer-focused workspace.
 
-Built from [Chrome Extension Starter](https://github.com/chibat/chrome-extension-typescript-starter)
+## Installation
+
+- Download the extension: Obtain the <a href="https://github.com/zarqani/dev-hub-extension/releases/download/v1.0.0/extension.zip">extension</a> file.
+- Load unpacked:
+  - Open Chrome extensions (chrome://extensions).
+  - Enable "Developer mode" in the top right corner.
+  - Click "Load unpacked" and select the downloaded extension folder.
 
 ## Features
 
@@ -12,7 +18,7 @@ Built from [Chrome Extension Starter](https://github.com/chibat/chrome-extension
 - Actions for build
 - Some utils to simplify Chrome API
 
-## Development
+## Development Setup
 
 ```bash
 # Install dependencies
